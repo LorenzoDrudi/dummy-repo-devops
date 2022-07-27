@@ -19,7 +19,7 @@ jobs:
             with:
               pulumi-config-path: 'config.yaml'
               pulumi-goal: 'create'
-              pulumi-stack-name: 'dev1'
+              pulumi-stack-name: 'dev8'
               pulumi-cloud-provider: 'aws'
               cloud-architecture: 'arm64'
               pulumi-backend-url: 's3://gr-oss-pulumi-state'
