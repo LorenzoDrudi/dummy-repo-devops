@@ -22,6 +22,6 @@ jobs:
               pulumi-stack-name: 'dev8'
               pulumi-cloud-provider: 'aws'
               cloud-architecture: 'arm64'
-              pulumi-backend-url: 's3://gr-oss-pulumi-state'
+              pulumi-backend-url: ${{ secrets.PULUMI_BACKEND_URL }}
           
 
