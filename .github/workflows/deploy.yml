@@ -9,7 +9,7 @@ jobs:
               pulumi-config-path: 'config.yaml'
               pulumi-goal: 'create'
               pulumi-stack-name: 'dev5'
-              pulumi-cloud-provider: 'a'
+              pulumi-cloud-provider: 'aws'
               pulumi-config-passphrase: ${{ secrets.PULUMI_CONFIG_PASSPHRASE }}
               cloud-architecture: 'arm64'
               pulumi-backend-url: ${{ secrets.PULUMI_BACKEND_URL }}
