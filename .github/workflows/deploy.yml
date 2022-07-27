@@ -20,5 +20,6 @@ jobs:
               pulumi-cloud-provider: 'aws'
               cloud-architecture: 'arm64'
               pulumi-backend-url: ${{ secrets.PULUMI_BACKEND_URL }}
+
           
 
