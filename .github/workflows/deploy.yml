@@ -9,7 +9,7 @@ jobs:
               pulumi-config-path: 'config.yaml'
               pulumi-goal: 'create'
               pulumi-stack-name: 'dev5'
-              pulumi-cloud-provider: 'aws'
+              pulumi-cloud-provider: 'a'
               pulumi-config-passphrase: ${{ secrets.PULUMI_CONFIG_PASSPHRASE }}
               cloud-architecture: 'arm64'
               pulumi-backend-url: ${{ secrets.PULUMI_BACKEND_URL }}
@@ -18,6 +18,5 @@ jobs:
               aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
               aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
               aws-region: ${{ secrets.AWS_REGION }}
-              github-access-token: ${{ secrets.ACCESS_TOKEN }}
           
 
