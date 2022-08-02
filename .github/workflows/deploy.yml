@@ -20,6 +20,10 @@ jobs:
               pulumi-cloud-provider: 'aws'
               cloud-architecture: 'amd64'
               pulumi-backend-url: ${{ secrets.PULUMI_BACKEND_URL }}
+    runner-test:
+        runs-on: self-hosted
+        steps:
+            - run: echo "Test"
 
           
 
