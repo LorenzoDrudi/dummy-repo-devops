@@ -1,9 +1,9 @@
 config:
   ephemeral-github-runner:bootDiskSizeInGB: "100"
-  ephemeral-github-runner:bootDiskType: gp2
+  ephemeral-github-runner:bootDiskType: "gp2"
   ephemeral-github-runner:labels: ""
   ephemeral-github-runner:machineImage: "ubuntu-focal-2004-arm64-server-20211129-ghr22920"
-  ephemeral-github-runner:machineType: t4g.micro
-  ephemeral-github-runner:owner: LorenzoDrudi
-  ephemeral-github-runner:repo: dummy-repo-devops
+  ephemeral-github-runner:machineType: "t4g.micro"
+  ephemeral-github-runner:owner: "LorenzoDrudi"
+  ephemeral-github-runner:repo: "dummy-repo-devops"
   ephemeral-github-runner:runnersCount: "1"
