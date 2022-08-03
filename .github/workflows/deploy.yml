@@ -15,15 +15,12 @@ jobs:
               AWS_REGION: ${{ secrets.AWS_REGION }}
             with:
               pulumi-config-path: 'config.yaml'
-              pulumi-goal: 'create'
+              pulumi-goal: 'destroy'
               pulumi-stack-name: 'dev1'
               pulumi-cloud-provider: 'aws'
               cloud-architecture: 'amd64'
               pulumi-backend-url: ${{ secrets.PULUMI_BACKEND_URL }}
-    runner-test:
-        runs-on: self-hosted
-        steps:
-            - run: echo "Test"
+
 
 
           
