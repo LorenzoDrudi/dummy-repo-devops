@@ -6,7 +6,8 @@ Dummy repo used to test -> [ephemeral-github-runner-action](https://github.com/L
 Workflow dispatch event used to test the action.
 
 ## Branches:
-- Master: Runner Deployment + Test Workflow
+- Master: Master Branch
+- Develop: Test Branch
+- Test-workflow: Branch with a test workflow
 - Create: Runner Deployment
 - Destroy: Runner Destruction
-- Develop: Test Branch
