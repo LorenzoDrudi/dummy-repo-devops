@@ -1,6 +1,6 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-# dummy-repo-devops
+# dummy-repo-ephemeral-runners
 Dummy repo used to test -> [ephemeral-github-runner-action](https://github.com/LorenzoDrudi/ephemeral-github-runner-action)
 
 Workflow dispatch event used to test the action.
