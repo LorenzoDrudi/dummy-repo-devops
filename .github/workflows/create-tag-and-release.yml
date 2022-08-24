@@ -16,7 +16,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         WITH_V: true
-        DEFAULT_BUMP: major
+        DEFAULT_BUMP: minor
     - name: create release
       uses: softprops/action-gh-release@v1
       with:
