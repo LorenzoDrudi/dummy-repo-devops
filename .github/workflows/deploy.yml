@@ -4,7 +4,7 @@ jobs:
     manage-runners:
         runs-on: ubuntu-latest
         steps:
-          - uses: LorenzoDrudi/ephemeral-github-runner-action@testBranch
+          - uses: LorenzoDrudi/ephemeral-github-runner-action@v1.0.0
             env:
               PULUMI_BACKEND_URL: ${{ secrets.PULUMI_BACKEND_URL }}
               APP_ID: ${{ secrets.APP_ID }}
